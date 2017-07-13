@@ -185,6 +185,10 @@ p  a {
 }
 /* featured work images */
 
+.featured-work {
+	margin-bottom: 5.5em;
+}
+
 li.individual-featured-work{
 	display: inline-block;
 	padding-right: 12px;
