@@ -40,17 +40,21 @@
 }
 
 .blog-post {
-	width: 50%;
+	width: 43%;
+	float: left;
+
 }
-.blog-post h4 {
+.blog-post  h4 {
 	font-size: 16px;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	margin-bottom: 3.5em;
 }
 .blog-post h2 {
     font-weight: 100;
 	font-family: 'Montserrat';
+	margin-bottom: 2em;
 
 }
 .blog-post .read-more-link {
@@ -95,6 +99,7 @@ li a:visited {
 /* Case studies */
 article.case-study {
 margin: 20px 0 0;
+overflow: auto;
 }
 
 aside.case-study-sidebar {
@@ -110,7 +115,7 @@ aside.case-study-sidebar h5 {
 
 div.case-study-images	{
 	float: left;
-	width: 600px;
+	width: 400px;
 }
 div.case-study-images img {
 	display: block;
@@ -142,3 +147,78 @@ p  a {
 	font-size: 10;
 	font-weight: 600;
 }
+/* tweets*/
+.tweet {
+	width: 47%;
+    float: left;
+    margin-left: 4.3em;
+}
+
+.tweet h4 {
+
+    font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-bottom: 3.5em;
+	font-weight: 550;
+}
+.tweet h2 {
+    font-weight: 100;
+	font-family: 'Montserrat';
+    margin-bottom: 2em;
+}
+.tweet .read-more-link {
+	font-size: 15px;
+	font-family: 'Montserrat';
+	font-weight: 550;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+/* featured work images */
+
+li.individual-featured-work{
+	display: inline-block;
+	padding-right: 12px;
+
+}
+
+li figure img {
+max-width: 95%;
+padding-right: -14px;
+}
+
+ul{
+	margin: 0 0 24px 10px;
+}
+
+/*ul:after {
+  overflow: hidden;
+  content: "";
+  display: table;
+  clear: both;
+}*/
+/* Featured work section title */
+.featured-work h4 {
+	text-align: center;
+	margin-bottom: 2em;
+	font-size: 18px;
+}
+
+li.individual-featured-work h3 {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+/*site-info space on top*/
+.site-footer {
+	padding-top: 8em;
+}
+
+.site-footer .site-info{
+	padding-top: 3em;
+}
+
+
+

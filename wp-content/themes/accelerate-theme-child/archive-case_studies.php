@@ -15,6 +15,12 @@ get_header(); ?>
                 $image_1 = get_field('image_1');
                 $size = "full";
                 $services = get_field('services');
+                $image_2 = get_field('image_2');
+                $size = "full";
+                $services = get_field('services');
+                $image_3 = get_field('image_3');
+                $size = "full";
+                $services = get_field('services');
 			?>
 				<article class= "case-study">
         	       <aside class="case-study-sidebar">
@@ -30,6 +36,12 @@ get_header(); ?>
                     	<?php if($image_1) {
             	           echo wp_get_attachment_image( $image_1, $size );
             	      } ?>
+                     <?php if($image_2) {
+                         echo wp_get_attachment_image( $image_2, $size );
+                    } ?>
+                      <?php if($image_3) {
+                         echo wp_get_attachment_image( $image_3, $size );
+                    } ?>
                       </a>
                     </div>
                 </article>
