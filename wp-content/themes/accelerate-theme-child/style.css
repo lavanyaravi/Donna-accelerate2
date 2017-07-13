@@ -47,6 +47,9 @@
 .blog-post  h4 {
 	font-size: 16px;
 	font-family: 'Montserrat';
+	letter-spacing: 0.034em;
+	font-weight: 500;
+    font-style: regular;
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin-bottom: 3.5em;
@@ -58,9 +61,10 @@
 
 }
 .blog-post .read-more-link {
-	font-size: 16px;
-	font-family: 'Montserrat';
-	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 0.036em;
+	font-weight: 600;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
@@ -158,20 +162,24 @@ p  a {
 
     font-size: 16px;
 	font-family: 'Montserrat';
+	letter-spacing: 0.034em;
+	font-weight: normal;
+
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin-bottom: 3.5em;
-	font-weight: 550;
 }
+
 .tweet h2 {
     font-weight: 100;
 	font-family: 'Montserrat';
     margin-bottom: 2em;
 }
 .tweet .read-more-link {
-	font-size: 15px;
-	font-family: 'Montserrat';
-	font-weight: 550;
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 0.036em;
+	font-weight: 600;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
