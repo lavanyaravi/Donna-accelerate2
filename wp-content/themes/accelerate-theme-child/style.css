@@ -26,6 +26,10 @@
     font-weight: 300;
 
 }
+/* Accelerate title */
+.site-title {
+	padding-bottom: 4px;
+}
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
@@ -82,11 +86,17 @@
 li a:visited {
 	font-weight:bold;
 }
+/* caption on image */
+.picCaption h3 {
+	letter-spacing: 1px;
+	line-height: 140%;
 
+}
 
-#tealWord {
+.picCaption .tealWord {
 	color: #45ac9d;
 }
+
 .social-media-navigation [class *= "fa fa-"] {
 	background-color: #333;
     border-radius: 30px;
@@ -139,26 +149,32 @@ div.case-study-images img {
   clear: both;
   overflow: hidden;
 }
+
 p  a {
 	font-weight: 500;
 
 }
+
 .case-study-sidebar h2{
 	font-weight: 600;
 	font-size: 17;
 }
+
 .viewlink a{
 	font-size: 10;
 	font-weight: 600;
 }
+
 /* tweets*/
-.tweet {
+
+.widget-area {
 	width: 47%;
     float: left;
+
     margin-left: 4.3em;
 }
 
-.tweet h4 {
+  .widget-area h3 {
 
     font-size: 16px;
 	font-family: 'Montserrat';
@@ -167,22 +183,52 @@ p  a {
 
 	color: #a6a6a6;
 	text-transform: uppercase;
+	margin-left: 2.4em;
 	margin-bottom: 3.5em;
 }
 
-.tweet h2 {
-    font-weight: 100;
+.widget-area .PI_SimpleTwitterTweets h3 a {
+	font-size: 18px;
+    font-weight: 500;
 	font-family: 'Montserrat';
-    margin-bottom: 2em;
+	color: black;
+    margin-top: 3.5em;
+    margin-left: -2.2em;
+
 }
-.tweet .read-more-link {
+
+.widget-area .read-more-link {
 	font-size: 14px;
 	font-family: 'Arial';
 	letter-spacing: 0.036em;
 	font-weight: 600;
 	color: #45ac9d;
 	text-transform: uppercase;
+	padding-left: 3.4em;
 }
+
+.widget-area #pi_simpletwittertweets-2 .tweets  {
+	margin-top: 3em;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* Newsletter */
+label {
+	margin-right: 1em;
+}
+
+#mc4wp_form_widget-2 h3{
+	margin-left: -0.3em;
+}
+
+#mc4wp_form_widget-2 .button {
+	width: 6.5em;
+	height: 3.5em;
+	font-size: 14px;
+	padding: 2px;
+}
+
 /* featured work images */
 
 .featured-work {
@@ -204,12 +250,7 @@ ul{
 	margin: 0 0 24px 10px;
 }
 
-/*ul:after {
-  overflow: hidden;
-  content: "";
-  display: table;
-  clear: both;
-}*/
+
 /* Featured work section title */
 .featured-work h4 {
 	text-align: center;
@@ -226,11 +267,158 @@ li.individual-featured-work h3 {
 /*site-info space on top*/
 .site-footer {
 	padding-top: 8em;
+
 }
 
-.site-footer .site-info{
+.site-footer .site-info {
 	padding-top: 3em;
 }
 
+/* space at the bottom of the page */
+#page {
+	padding-bottom: 4em;
+}
 
+
+#nf-field-4{
+    background: #45ac9d;
+    color: white;
+    float: right;
+    width: 14em;
+    height: 3em;
+    padding-right: 0.25em;
+
+ }
+
+
+div.nf-field-label label{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+div#content {
+ width: 800px;
+ margin-left: 4em;
+ margin-right: 1em;
+ margin:auto;
+}
+
+
+.classzero #writing {
+	float: center;
+	text-align: center;
+	margin-bottom: 3em;
+	margin:auto;
+}
+
+.individual-featured-work{
+    margin-bottom: 2em;
+    width: 85%;
+    margin-left: 4em;
+}
+
+.ourservices {
+	float: center;
+    padding-left: 1.5em;
+	text-align: center;
+	margin-bottom: 3em;
+	margin-left: 6em;
+    width: 58%;
+
+}
+
+.ourservices #title {
+	font-family: 'Montserrat';
+	font-size: 17px;
+	font-weight: bold;
+}
+.ourservices p {
+    font-size: 17px;
+	font-weight: 200;
+}
+
+.evenpost {
+	width: 65%;
+	float: right;
+    margin-bottom: 1em;
+    margin-left: -2em;
+    text-align: justify;
+
+}
+
+.evenpost #title{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.oddpost {
+	width: 65%;
+	float: left;
+	margin-bottom: 1em;
+}
+
+.oddpost #title {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.site-content {
+	border-bottom-width: 2px solid black;
+}
+
+#toWork{
+	width: 100%;
+    height: 2em;
+   border-top: 1px dotted gray;
+
+}
+
+#toWork h2{
+	margin-top: 3.6em;
+	margin-left: 4em;
+	width: 40%;
+}
+
+#toWork .contactButton{
+	float: right;
+    width: 45%;
+    margin-top: -2em;
+}
+
+.site-footer {
+	padding-top: 1em;
+	padding-bottom: 3em;
+
+}
+
+.picCaption{
+	width: 60%;
+	margin-left: 11em;
+}
+
+.home-page{
+	height: 8em;
+}
+
+/* 404 page */
+
+.ship{
+	background: url('../accelerate-theme-child/img/wreck640.jpg') no-repeat top center;
+	position: relative;
+	max-width: 100%;
+	height: 70em;
+	margin-top: 1em;
+}
+
+#error {
+position: absolute;
+top: 17.6em;
+left: 4em;
+color: black;
+font-size: 1.7em;
+font-weight: bold;
+}
+.gray{
+	color: #24890d;
+}
 

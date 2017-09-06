@@ -20,7 +20,7 @@
 					$arr = explode(' ',trim($site_description));
 					 ?>
 				<p>
-					<span id ="tealWord"><?php echo $arr[0]; ?></span>
+					<span class ="tealWord"><?php echo $arr[0]; ?></span>
 					<?php echo ltrim($site_description, $arr[0]); ?>
 					</p>
 
