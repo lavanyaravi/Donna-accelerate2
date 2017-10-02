@@ -236,18 +236,21 @@ label {
 }
 
 li.individual-featured-work{
+
 	display: inline-block;
-	padding-right: 12px;
+	padding-right: 5px;
 
 }
+
+
 
 li figure img {
 max-width: 95%;
-padding-right: -14px;
+
 }
 
 ul{
-	margin: 0 0 24px 10px;
+	margin: 0 0 24px 5px;
 }
 
 
@@ -310,11 +313,16 @@ div#content {
 	margin-bottom: 3em;
 	margin:auto;
 }
+/* Accelerate page work items style*/
+.page-id-5 .individual-featured-work {
+	margin-bottom: 2em;
+    width: 30%;
+
+}
 
 .individual-featured-work{
     margin-bottom: 2em;
-    width: 85%;
-    margin-left: 4em;
+
 }
 
 .ourservices {
@@ -396,9 +404,7 @@ div#content {
 	margin-left: 11em;
 }
 
-.home-page{
-	height: 8em;
-}
+
 
 /* 404 page */
 
